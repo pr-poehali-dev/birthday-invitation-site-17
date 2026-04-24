@@ -168,14 +168,14 @@ export default function Index() {
           </h1>
 
           <p style={{ fontSize: "1.1rem", color: "var(--text-soft)", maxWidth: "32rem", margin: "0 auto 2rem" }}>
-            Мы приглашаем тебя отметить этот особенный день вместе с нами — с музыкой, смехом и самыми тёплыми воспоминаниями.
+            приглашаем вас на праздничный обед в честь меня 💘
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 items-center justify-center mb-10">
             {[
-              { icon: "Calendar", text: "25 мая 2025" },
-              { icon: "Clock", text: "19:00" },
-              { icon: "MapPin", text: "ул. Праздничная, 1" },
+              { icon: "Calendar", text: "3 мая" },
+              { icon: "Clock", text: "14:00" },
+              { icon: "MapPin", text: "Степана Разина 140А" },
             ].map((item) => (
               <div
                 key={item.icon}
@@ -296,7 +296,7 @@ export default function Index() {
 
             <div className="mt-8 pt-6 flex flex-col gap-3" style={{ borderTop: "1px solid var(--border-soft)" }}>
               {[
-                { icon: "Phone", href: "tel:+79001234567", text: "+7 (900) 123-45-67" },
+                { icon: "Phone", href: "tel:+79198522585", text: "+7 919 852-25-85" },
                 { icon: "Mail", href: "mailto:party@example.com", text: "party@example.com" },
               ].map((c) => (
                 <a key={c.icon} href={c.href} className="flex items-center gap-3 text-sm font-medium contact-link">
