@@ -306,7 +306,7 @@ export default function Index() {
               ))}
               <div className="flex items-center gap-3 text-sm font-medium" style={{ color: "var(--text-soft)" }}>
                 <Icon name="MapPin" size={17} />
-                <span>ул. Праздничная, 1, зал «Торжество»</span>
+                <span>Степана Разина 140А</span>
               </div>
             </div>
           </div>
