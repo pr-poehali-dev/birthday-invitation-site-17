@@ -164,7 +164,7 @@ export default function Index() {
           <h1 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(3.5rem, 12vw, 7rem)", lineHeight: 1, color: "var(--gold)", marginBottom: "1rem" }}>
             С Днём
             <br />
-            <span style={{ color: "var(--fuchsia)" }}>Рождения!</span>
+            <span style={{ color: "var(--fuchsia)" }}>Рождения меня!</span>
           </h1>
 
           <p style={{ fontSize: "1.1rem", color: "var(--text-soft)", maxWidth: "32rem", margin: "0 auto 2rem" }}>
