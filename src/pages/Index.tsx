@@ -19,15 +19,15 @@ const confettiPieces = Array.from({ length: 70 }, (_, i) => ({
 
 const GALLERY = [
   {
-    src: "https://cdn.poehali.dev/projects/88ffe616-7663-43d4-8b76-d0729bfe1868/files/193ba646-3b32-441e-b92c-dd0bc2f5ca8e.jpg",
+    src: "https://cdn.poehali.dev/projects/88ffe616-7663-43d4-8b76-d0729bfe1868/bucket/8bb204cc-0db9-4935-aa14-d32bade4c714.jpg",
     caption: "Незабываемый вечер",
   },
   {
-    src: "https://cdn.poehali.dev/projects/88ffe616-7663-43d4-8b76-d0729bfe1868/files/da5fc18e-5126-4e1d-a461-e741dfd1bc9a.jpg",
+    src: "https://cdn.poehali.dev/projects/88ffe616-7663-43d4-8b76-d0729bfe1868/bucket/8bb204cc-0db9-4935-aa14-d32bade4c714.jpg",
     caption: "Тёплые моменты",
   },
   {
-    src: "https://cdn.poehali.dev/projects/88ffe616-7663-43d4-8b76-d0729bfe1868/files/d866de5e-2c06-47a0-b4f8-24f61f580952.jpg",
+    src: "https://cdn.poehali.dev/projects/88ffe616-7663-43d4-8b76-d0729bfe1868/bucket/8bb204cc-0db9-4935-aa14-d32bade4c714.jpg",
     caption: "Вместе веселее",
   },
 ];
