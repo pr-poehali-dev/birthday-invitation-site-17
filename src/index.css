@@ -8,40 +8,40 @@
   --font-display: "Pacifico", cursive;
   --font-body: "Golos Text", sans-serif;
 
-  --bg-main: #1a0a2e;
-  --bg-main2: #22103c;
-  --gold: #ffd93d;
-  --fuchsia: #ff6fc8;
+  --bg-main: #fff8f0;
+  --bg-main2: #fff0f5;
+  --gold: #d4820a;
+  --fuchsia: #d4006a;
   --coral: #ff6b6b;
-  --violet: #a78bfa;
+  --violet: #8b5cf6;
 
-  --card-bg: rgba(255, 255, 255, 0.06);
-  --nav-bg: rgba(26, 10, 46, 0.85);
-  --badge-bg: rgba(255, 217, 61, 0.12);
-  --badge-text: #ffd93d;
-  --border-soft: rgba(255, 255, 255, 0.12);
-  --text-main: #f5f0ff;
-  --text-soft: rgba(245, 240, 255, 0.55);
+  --card-bg: #ffffff;
+  --nav-bg: rgba(255, 248, 240, 0.92);
+  --badge-bg: rgba(212, 130, 10, 0.1);
+  --badge-text: #b56a00;
+  --border-soft: rgba(0, 0, 0, 0.1);
+  --text-main: #2d1b0e;
+  --text-soft: rgba(45, 27, 14, 0.55);
 
-  --background: 270 50% 10%;
-  --foreground: 270 30% 96%;
-  --card: 270 50% 10%;
-  --card-foreground: 270 30% 96%;
-  --popover: 270 50% 10%;
-  --popover-foreground: 270 30% 96%;
-  --primary: 47 100% 62%;
-  --primary-foreground: 270 50% 10%;
-  --secondary: 270 30% 18%;
-  --secondary-foreground: 270 30% 96%;
-  --muted: 270 30% 18%;
-  --muted-foreground: 270 20% 60%;
-  --accent: 270 30% 22%;
-  --accent-foreground: 270 30% 96%;
+  --background: 30 100% 97%;
+  --foreground: 25 60% 12%;
+  --card: 0 0% 100%;
+  --card-foreground: 25 60% 12%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 25 60% 12%;
+  --primary: 32 90% 42%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 30 40% 94%;
+  --secondary-foreground: 25 60% 12%;
+  --muted: 30 40% 94%;
+  --muted-foreground: 25 20% 50%;
+  --accent: 30 40% 90%;
+  --accent-foreground: 25 60% 12%;
   --destructive: 0 84% 60%;
   --destructive-foreground: 0 0% 98%;
-  --border: 270 30% 22%;
-  --input: 270 30% 22%;
-  --ring: 47 100% 62%;
+  --border: 30 20% 88%;
+  --input: 30 20% 88%;
+  --ring: 32 90% 42%;
   --radius: 0.75rem;
 }
 
@@ -92,7 +92,7 @@
   transform: translateX(-50%);
   width: 1px;
   height: 18px;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 /* ===== Навигация ===== */
@@ -108,14 +108,14 @@
 /* ===== Кнопка ===== */
 .btn-main {
   background: linear-gradient(135deg, var(--gold) 0%, var(--fuchsia) 100%);
-  color: #1a0a2e;
+  color: #ffffff;
   font-family: var(--font-body);
   border: none;
   cursor: pointer;
   transition:
     transform 0.18s,
     box-shadow 0.18s;
-  box-shadow: 0 4px 24px rgba(255, 107, 200, 0.35);
+  box-shadow: 0 4px 24px rgba(212, 0, 106, 0.25);
   text-decoration: none;
   display: inline-block;
 }
@@ -150,7 +150,7 @@
   width: 100%;
   padding: 0.85rem 1rem;
   border-radius: 0.85rem;
-  background: rgba(255, 255, 255, 0.07);
+  background: #fff8f0;
   border: 1.5px solid var(--border-soft);
   color: var(--text-main);
   font-family: var(--font-body);
@@ -165,10 +165,10 @@
 }
 .form-input:focus {
   border-color: var(--gold);
-  background: rgba(255, 217, 61, 0.07);
+  background: #fff3e0;
 }
 .form-input option {
-  background: #22103c;
+  background: #fff8f0;
   color: var(--text-main);
 }
 
